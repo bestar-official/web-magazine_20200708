@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta http-equiv="Content-Style-Type" content="text/css">
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta http-equiv="Content-Script-Type" content="text/javascript">
+
+		<meta name="viewport" content="width=device-width">
+
+		<meta name="description" content="BESTAR WEBマガジン、7月8日号配信ページです。">
+		<meta name="keywords" content="BESTAR,美容学生,サロン">
+		<link rel="stylesheet" type="text/css" href="css/index.css">
+		<title>BESTAR 7月号</title>
+		<style type="text/css"></style>
+
+		<!-- <script type="text/javascript">
+		function check_number(){
+			if(form2.free_word2.value.match(/^[0-9]+$/)){
+			alert(form2.free_word2.value);}
+			else{alert("error!");}
+		}
+		</script> -->
+
+		<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	</head>
+	<body>
+		<table width="100%" cellspacing="0" cellpadding="0" style="border:0px solid blue;" bgcolor="white" align="center">
+			<header>
+				<img class="logo" src="./images/logo.jpg" alt="logo">
+            </header>
+			<div class="mainview">
+                <div class="title">
+                    <img class="title" src="./images/top.jpg" alt="title">
+                </div>
+                
+                <div class="total_producer">
+                    <img class="visual_pic" src="./images/ryu.jpg" alt="統括プロデューサー">
+                    <div class="Instagram">
+                        <a href="https://instagram.com/kazuma_r?igshid=281905aujmca">
+                            <img src="./images/green_insta.jpg" alt="インスタグラム">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="green_ambassador">
+                    <img class="visual_pic" src="./images/01_karin.jpg" alt="山口香梨">
+                    <div class="InstagramG">
+                        <a href="https://www.instagram.com/kyrn_18/?hl=ja">
+                            <img src="./images/green_insta.jpg" alt="インスタグラム">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="yellow_ambassador">
+                    <img class="visual_pic" src="./images/02_sho.jpg" alt="元久翔">
+                    <div class="InstagramY">
+                        <a href="https://www.instagram.com/maverick6003/?hl=jamaverick6003">
+                            <img src="./images/yellow_insta.jpg" alt="インスタグラム">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="green_ambassador">
+                    <img class="visual_pic" src="./images/03_ayana.jpg" alt="白井彩奈">
+                    <div class="InstagramG">
+                        <a href="https://www.instagram.com/_____ayn.s_/?hl=ja">
+                            <img src="./images/green_insta.jpg" alt="インスタグラム">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="yellow_ambassador">
+                    <img class="visual_pic" src="./images/04_yuuna.jpg" alt="下小薗優菜">
+                    <div class="InstagramY">
+                        <a href="https://www.instagram.com/yunah_3/?hl=ja">
+                            <img src="./images/yellow_insta.jpg" alt="インスタグラム">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="green_ambassador">
+                    <img class="visual_pic" src="./images/05_koushin.jpg" alt="木村神心">
+                    <div class="InstagramG">
+                        <a href="https://www.instagram.com/kooooxx4/?hl=ja">
+                            <img src="./images/green_insta.jpg" alt="インスタグラム">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="yellow_ambassador">
+                    <img class="visual_pic" src="./images/06_yuuka.jpg" alt="今津屋優花">
+                    <div class="InstagramY">
+                        <a href="https://www.instagram.com/ima_yu_04/?hl=ja">
+                            <img src="./images/yellow_insta.jpg" alt="インスタグラム">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="green_ambassador">
+                    <img class="visual_pic" src="./images/07_rikimaru.jpg" alt="山際力丸">
+                    <div class="InstagramG">
+                        <a href="https://www.instagram.com/ry_kxxy/?hl=ja">
+                            <img src="./images/green_insta.jpg" alt="インスタグラム">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="yellow_ambassador">
+                    <img class="visual_pic" src="./images/08_hirotaka.jpg" alt="矢野広考">
+                    <div class="InstagramY">
+                        <a href="https://www.instagram.com/think_hiro/?hl=ja">
+                            <img src="./images/yellow_insta.jpg" alt="インスタグラム">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="green_ambassador">
+                    <img class="visual_pic" src="./images/09_riku.jpg" alt="溝口陸">
+                    <div class="InstagramG">
+                        <a href="https://www.instagram.com/riku___220___/?hl=ja">
+                            <img src="./images/green_insta.jpg" alt="インスタグラム">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="yellow_ambassador">
+                    <img class="visual_pic" src="./images/10_ibuki.jpg" alt="金森息吹">
+                    <div class="InstagramY">
+                        <a href="https://www.instagram.com/ibuki_style_0905/?hl=ja">
+                            <img src="./images/yellow_insta.jpg" alt="インスタグラム">
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+			<div class="footer">
+                <img src="./images/under_line.png" alt="アンダーライン">
+                <a href="https://aura-mico.jp/qr-codes/5683/s">
+                    <img class="back_button" src="./images/back_button.jpg" alt="back_button">
+                </a>
+            </div>
+		</table>
+	</body>
+</html>

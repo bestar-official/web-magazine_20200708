@@ -1,0 +1,83 @@
+img { 
+    max-width:100%; 
+    height:auto; 
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+
+.logo {
+    width: 100%;
+}
+
+.mainview {
+    width: 100%;
+}
+
+.title {
+    width: 100%;
+    /* margin-top: 10px; */
+}
+
+
+
+.total_producer {
+    position: relative;
+}
+
+.visual_pic {
+    width: 100%;
+}
+
+.Instagram {
+    position: absolute;
+    width: 37%;
+    top: 15%;
+    left: 57%;
+}
+
+.green_ambassador {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.InstagramG {
+    position: absolute;
+    width: 37%;
+    top: 43%;
+    left: 52%;
+}
+
+.yellow_ambassador {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.InstagramY {
+    position: absolute;
+    width: 37%;
+    top: 43%;
+    left: 6%;
+}
+
+
+
+
+
+
+.footer {
+    margin-top: 40px;
+}
+
+.back_button {
+    width: 100%;
+}
+
+
+
+
+
